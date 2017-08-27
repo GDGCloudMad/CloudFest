@@ -25,7 +25,6 @@ after_success:
     elif [ "${TRAVIS_BRANCH}" = "master" ]; then
       firebase deploy --token $FIREBASE_TOKEN --project gdgcloudmadrid;
     fi
-  - firebase deploy --token $FIREBASE_TOKEN
 
 notifications:
   email:
