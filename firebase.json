@@ -14,12 +14,12 @@
     "redirects": [
       {
         "source": "/codelabs",
-        "destination": "https://codelabs.developers.google.com/polymer-summit-2017",
+        "destination": "https://codelabs.developers.google.com/next17",
         "type": 302
       },
       {
         "source": "/video-embed",
-        "destination": "https://www.youtube.com/embed/4X4tCIJeo8w?list=PLNYkxOF6rcIDP0PqVaJxqNWwIgvoEPzJi",
+        "destination": "https://www.youtube.com/embed/MW9VCYgSxlQ",
         "type": 302
       }
     ],

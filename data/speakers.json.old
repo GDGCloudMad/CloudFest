@@ -1,0 +1,250 @@
+[
+  {
+    "name": "Monica Dinculescu",
+    "company": "Google",
+    "twitter": "notwaldorf",
+    "gplus": "+MonicaDinculescu514",
+    "photo": "/images/speakers/monica_dinculescu.jpg",
+    "bio": "Monica is an emojineer at Google. She works on Polymer, web components and Chrome, and has probably at least once broken the Internet for you. She is unreasonably excited about emoji, wary of web fonts, and will become your best friend if you bring her cheese. On second thought, she may be a mouse."
+  },
+  {
+    "name": "Alex Russell",
+    "company": "Google",
+    "twitter": "slightlylate",
+    "gplus": "+AlexRussell",
+    "photo": "/images/speakers/alex_russell.jpg",
+    "bio": "Alex Russell is a Software Engineer on the Chrome team where he designs new features for the Web Platform and leads Chrome's Standards work. He's a member of ECMA TC39 and serves as an elected member of the W3C’s Technical Architecture Group where he works to improve emerging web APIs. His recent projects include Progressive Web Apps, Service Workers, Web Components, and ES6 features including Classes and Promises. Previously he helped build Chrome Frame and led the Dojo Toolkit project. PWAs are his jam."
+  },
+  {
+    "name": "Rob Dodson",
+    "company": "Google",
+    "twitter": "rob_dodson",
+    "gplus": "+RobDodson",
+    "photo": "/images/speakers/rob_dodson.jpg",
+    "bio": "Rob Dodson is a developer advocate at Google where he focuses on Web Components and Accessibility. His mission is to fight for a better web and to help developers build great experiences. You can catch him every other week on his YouTube series \"A11ycasts\" and \"Polycasts\", or on his blog at robdodson.me."
+  },
+  {
+    "name": "Taylor Savage",
+    "company": "Google",
+    "twitter": "TaylorTheSavage",
+    "gplus": "",
+    "photo": "/images/speakers/taylor_savage.jpg",
+    "bio": "Taylor is a Product Manager on the Google Web Platform Team, focused on Polymer and Progressive Web Apps. Prior to Polymer, Taylor worked launching new features on Google Search. He enjoys cooking, eating, and tinkering with Raspberry Pi's."
+  },
+  {
+    "name": "Ben Galbraith",
+    "company": "Google",
+    "twitter": "bgalbs",
+    "gplus": "",
+    "photo": "/images/speakers/ben_galbraith.jpg",
+    "bio": "Ben Galbraith is a Director of Product Management for Chrome, focused on the present and future of the web platform. Prior to Google, Ben has alternated between entrepreneurial and executive roles across several industries and has held leadership roles in organizations like Mozilla, Palm during the webOS era, and Walmart Labs. When not at work, he’s trying to get some of his eight kids interested in software development."
+  },
+  {
+    "name": "Dion Almaer",
+    "company": "Google",
+    "twitter": "dalmaer",
+    "gplus": "",
+    "photo": "/images/speakers/dion_almaer.jpg",
+    "bio": "I love helping developers be successful as that results in happy users. I enjoy watching the constantly evolving experiment that is the Web, and long to see it grow and prosper."
+  },
+  {
+    "name": "Matt McNulty",
+    "company": "Google",
+    "twitter": "mattsmcnulty",
+    "gplus": "",
+    "photo": "/images/speakers/matt_mcnulty.jpg",
+    "bio": "Matthew is the Engineering Director and founder of the Polymer team at Google Chrome. Prior to that, he was a core member of the webOS team at Palm, focused on the UI, core apps, and the SDK and Developer Platform organizations."
+  },
+  {
+    "name": "Wendy Ginsberg",
+    "company": "Google",
+    "twitter": "wmginsberg",
+    "gplus": "103070138385502314647",
+    "photo": "/images/speakers/wendy_ginsberg.jpg",
+    "bio": "Wendy is a Product Manager on the Chrome Web Platform team focusing on Polymer. Her hobbies include going on road trips, hardware hacking, and taking her bearded dragon on walks."
+  },
+  {
+    "name": "Jesiah McCann",
+    "company": "Gannett",
+    "twitter": "jesiahM",
+    "gplus": "",
+    "photo": "/images/speakers/jesiah_mccann.jpg",
+    "bio": "Jesiah manages development of core web products @ Gannett / USA TODAY. He has been with Gannett for 5 years, and is currently leading the development of their emerging web platform. Jesiah is a blacksmith in his spare time, and has a slight obsession with all things coffee."
+  },
+  {
+    "name": "Josh Trout",
+    "company": "Gannett",
+    "twitter": "filet0fish",
+    "gplus": "+JoshTrout",
+    "photo": "/images/speakers/josh_trout.jpg",
+    "bio": "Josh has been working at Gannett for over 3 years and is a principal developer on the web team. He is currently architecting the next generation framework for Gannett's 100+ newspaper sites."
+  },
+  {
+    "name": "Marianne Epstein",
+    "company": "Gannett",
+    "twitter": "",
+    "gplus": "109572581360706603125",
+    "photo": "/images/speakers/marianne_epstein.jpg",
+    "bio": "Marianne Epstein is a Senior UX Architect with Gannett Product, focused on building a flexible, scalable design system to meet the needs of the USA TODAY NETWORK’s readers, journalists, developers and designers. Outside of work (and mostly off of screens) she creates artist books."
+  },
+  {
+    "name": "Gray Norton",
+    "company": "Google",
+    "twitter": "graynorton",
+    "gplus": "",
+    "photo": "/images/speakers/gray_norton.jpg",
+    "bio": "Gray is a passionate Web advocate and a Technical Lead / Manager on the Polymer team. Prior to joining Google he led the Enyo framework team at webOS, helping developers build apps for several generations of phones, tablets, TVs and watches. In past lives, he has worked on software tools for creating chatbots, 3D games and pretty pictures. When not at work, Gray enjoys spending time with his family and occasionally singing."
+  },
+  {
+    "name": "Sam Thorogood",
+    "company": "Google",
+    "twitter": "samthor",
+    "gplus": "+SamThorogood",
+    "photo": "/images/speakers/sam_thorogood.jpg",
+    "bio": "Sam is Google's lead Santaware Engineer 🎁🎄🤶🎅 inside Google's Developer Relations team, and every year builds Google's Santa Tracker website (with Polymer). He also is a strong believer in standards and using the platform—Web Components, ES6 Modules, modern EcmaScript—and polyfills over 3rd-party libraries. Hailing from Australia 🇦🇺, he likes to travel but suffers from a lack of 2nd language skills."
+  },
+  {
+    "name": "Steve Orvell",
+    "company": "Google",
+    "twitter": "",
+    "gplus": "",
+    "photo": "/images/speakers/steve_orvell.jpg",
+    "bio": "Steve is an engineer working on the core library of the Polymer project. He works on the foundation code, DOM scoping, and the data system. He's been on the project since the beginning about 4 years ago and has participated in the spec process for Custom Elements and Shadow DOM. Before Polymer, Steve worked on WebOS at HP and Palm. In addition to coding, Steve enjoys running, biking, and traveling."
+  },
+  {
+    "name": "Kevin Schaaf",
+    "company": "Google",
+    "twitter": "",
+    "gplus": "",
+    "photo": "/images/speakers/kevin_schaaf.jpg",
+    "bio": "Kevin is a software engineer focusing on core features of the Polymer library. Kevin got his start in web development at a Tokyo startup back in the Netscape/IE5 days, and then took a long hiatus from the web while working in embedded electronics. Kevin returned back to the web in full force several years ago after joining Palm to work on the webOS developer platform and later leading the development of LG’s smart TV UI framework before joining the Polymer team at Google."
+  },
+  {
+    "name": "Surma",
+    "company": "Google",
+    "twitter": "DasSurma",
+    "gplus": "",
+    "photo": "/images/speakers/surma.jpg",
+    "bio": "Surma is an engineer working with the Chrome team. He likes to cut himself on the bleeding edge, goes full-stack every once in a while and prefers good code over functional one."
+  },
+  {
+    "name": "Martin Splitt",
+    "company": "Archilogic",
+    "twitter": "",
+    "gplus": "",
+    "photo": "/images/speakers/martin_splitt.jpg",
+    "bio": "Martin is open source contributor and web evangelist by heart from Zurich with a decade experience from the trenches of software engineering in multiple fields. He works as a software engineer at Archilogic in front- and backend. He devotes his time to moving the web forward, fixing problems, building applications and systems and breaking things for fun & profit. Martin believes in the web platform and is working with bleeding edge technologies that will allow the web to prosper."
+  },
+  {
+    "name": "Chad Killingsworth",
+    "company": "Jack Henry and Associates",
+    "twitter": "",
+    "gplus": "",
+    "photo": "/images/speakers/chad_killingsworth.jpg",
+    "bio": "Chad is a Software Engineer for Jack Henry & Associates where he builds modern online banking experiences for U.S. banks using Polymer. Chad contributes to many open source projects including Google’s Closure Compiler and generally advocates for strongly typed and highly performant JavaScript to anyone within earshot."
+  },
+  {
+    "name": "Maria Husmann",
+    "company": "ETH Zurich (PhD Student)",
+    "twitter": "",
+    "gplus": "",
+    "photo": "/images/speakers/maria_husmann.jpg",
+    "bio": "Maria is a PHD student at ETH Zurich working at the intersection of human computer interaction and web engineering. She is researching how developers can build applications that distribute their UI across multiple devices. Previously she worked as a software engineer on traffic control projects. This autumn, Maria will start a part-time position as a lecturer in the Digital Ideation programme at the Lucerne University of Applied Sciences and Arts."
+  },
+  {
+    "name": "Kunal Kundaje",
+    "company": "Netflix",
+    "twitter": "kunal",
+    "gplus": "",
+    "photo": "/images/speakers/kunal_kundaje.jpg",
+    "bio": "Kunal Kundaje is a Senior Software Engineer at Netflix on the Cloud and Platform team, where he works on interesting problems at the unique intersection of large-scale distributed systems in the cloud and front-end web development. Prior to Netflix, Kunal traveled around the U.S. at ThoughtWorks, working with clients in the retail, media, healthcare, and airline industries on a variety of responsive web and mobile consumer apps."
+  },
+  {
+    "name": "Ziling Zhao",
+    "company": "Google",
+    "twitter": "",
+    "gplus": "",
+    "photo": "/images/speakers/ziling_zhao.jpg",
+    "bio": "Ziling Zhao is a software engineer at Google working on the YouTube web architecture team. Before this team, he worked on the YouTube main desktop website and devops/site reliability at Google on a small photo editing team called Picnik. At Youtube, he has worked on the search frontend, the desktop/mobile website, and was a technical lead on latency. His current focus is on the shared web infrastructure of YouTube Web Applications."
+  },
+  {
+    "name": "Mikhail Sychev",
+    "company": "Google",
+    "twitter": "MikeAthene",
+    "gplus": "",
+    "photo": "/images/speakers/mikhail_sychev.jpg",
+    "bio": "Mikhail Sychev is a senior software engineer at Google. For the last 5 years he has been part of the YouTube Desktop team, helping to build YouTube's next generation web experience. Mikhail is a huge advocate of the Polymer web framework and an engineer behind WebP thumbnails at YouTube and YouTube on Cardboard. Prior to Google, Mikhail worked as a software engineer at Apartama. Mikhail earned his master’s degree from MIIT at Moscow, Russia."
+  },
+  {
+    "name": "Mariko Kosaka",
+    "company": "Google",
+    "twitter": "kosamari",
+    "gplus": "",
+    "photo": "/images/speakers/mariko_kosaka.jpg",
+    "bio": "Mariko is a developer advocate at Google working on the open web.  If she is not in front of a laptop, she is probably drawing or knitting."
+  },
+  {
+    "name": "Sam Li",
+    "company": "Google",
+    "twitter": "samdotli",
+    "gplus": "",
+    "photo": "/images/speakers/sam_li.jpg",
+    "bio": "Chrome engineer on the Polymer team. Recently moved from Sydney to San Francisco."
+  },
+  {
+    "name": "Bede Overend",
+    "company": "Simpla",
+    "twitter": "",
+    "gplus": "",
+    "photo": "/images/speakers/bede_overend.jpg",
+    "bio": "Bede is the co-founder of Simpla, a modular content framework, where he works on developing content focused Web Components, scalable APIs and exploring bleeding edge platform features. Bede's based in Melbourne, Australia and like all Melbournians is a complete coffee snob."
+  },
+  {
+    "name": "Trey Shugart",
+    "company": "Atlassian",
+    "twitter": "",
+    "gplus": "",
+    "photo": "/images/speakers/trey_shugart.jpg",
+    "bio": "Trey is a Principal Engineer on the front-end component library at Atlassian by day and author of SkateJS - and other web component tooling - by night. When he's not behind the computer, he's either hangin with the fam or pretending he's the lead guitarist of a prog rock band."
+  },
+  {
+    "name": "Alexander Zogheb",
+    "company": "EA",
+    "twitter": "",
+    "gplus": "",
+    "photo": "/images/speakers/alexander_zogheb.jpg",
+    "bio": "Alexander is the Group Technical Director with the PULSE team at Electronic Arts in Vancouver, Canada.  He is a father, software engineer, and entrepreneur, and is all about online and web to the bone.  Remember Geocities, Tripod and DyanamicDrive.com??  Alexander has been with EA for 8 years and has worked on Web@EA since the early beginnings, as well as Game Services / SaaS.  He was also a Frostbite Game Engine Online Technical Director."
+  },
+  {
+    "name": "Max Lynch",
+    "company": "Ionic",
+    "twitter": "",
+    "gplus": "",
+    "photo": "/images/speakers/max_lynch.jpg",
+    "bio": "Max is the co-founder and CEO of Ionic, a startup building tools to enable web developers to build top quality mobile and responsive web apps. Max lives in Madison, Wisconsin with his wife and nearly one year old son, and loves soccer and film photography."
+  },
+  {
+    "name": "Adam Bradley",
+    "company": "Ionic",
+    "twitter": "",
+    "gplus": "",
+    "photo": "/images/speakers/adam_bradley.jpg",
+    "bio": "Adam is the co-creator of and lead developer of Ionic. Adam regularly writes and speaks about hybrid and mobile app development with Ionic, Web Components, and AngularJS. He lives in beautiful Madison, Wisconsin, and is a proud dad, husband, veteran, and dog’s best friend."
+  },
+  {
+    "name": "Justin Fagnani",
+    "company": "Google",
+    "twitter": "justinfagnani",
+    "gplus": "+JustinFagnani",
+    "photo": "/images/speakers/justin_fagnani.jpg",
+    "bio": "Justin is a software engineer at Google, and technical lead of the Polymer Tools team. When not building tooling for Web Components, he moonlights as a template system designer, programming language enthusiast and musician. He's been working in developer tools at Google for over 8 years, previously with Dart, and as a founder of the App Maker project."
+  },
+  {
+    "name": "Fred K. Schott",
+    "company": "Google",
+    "twitter": "FredKSchott",
+    "gplus": "",
+    "photo": "/images/speakers/frederick_schott.jpg",
+    "bio": "Fred is a software engineer at Google, working on the Polymer tooling team to make your developer experience 💯. Before joining Google, Fred led engineering at Worklife & helped to bring Node.js to Box. He enjoys good food, bad movies, and writing about himself in the third person."
+  }
+]
