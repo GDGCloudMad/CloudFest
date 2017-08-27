@@ -21,9 +21,9 @@ script:
 after_success:
   - >
     if [ "${TRAVIS_BRANCH}" = "develop" ]; then
-      firebase deploy --token $FIREBASE_TOKEN --project gdgcloudmadrid-dev;
+      firebase deploy --token $FIREBASE_TOKEN --project devcloudfest;
     elif [ "${TRAVIS_BRANCH}" = "master" ]; then
-      firebase deploy --token $FIREBASE_TOKEN --project gdgcloudmadrid;
+      firebase deploy --token $FIREBASE_TOKEN --project cloudfestmad;
     fi
 
 notifications:
