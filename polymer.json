@@ -1,0 +1,17 @@
+{
+  "shell": "elements/polymer-summit.html",
+  "fragments": [
+    "elements/schedule-page.html",
+    "elements/speakers-page.html"
+  ],
+  "sources": [
+    "data/**/*",
+    "images/**/*",
+    "code-of-conduct.html",
+    "manifest.json",
+    "sw-imported.js"
+  ],
+  "builds": [{
+    "preset": "es5-bundled"
+  }]
+}
