@@ -3,17 +3,89 @@
     "date": "Friday, November 3",
     "sessions": [
       {
-        "name": "Registration/Breakfast",
-        "time": "Friday 8-10am",
-        "desc": "Pick up your badge, goodies, and enjoy breakfast. You must have a government-issued photo ID to receive a badge and check in to the event. If you requested special meals due to dietary restrictions, please visit the help desk. The introductory codelab will also take place during this time.",
+        "name": "Registration",
+        "time": "Friday 9:00 am",
+        "desc": "Check-in & Pick up your badge. Deberas presentar la entrada y DNIe. Si tienes alguna petición especial de comida o restricción indicanoslo al recoger tu badge.",
         "type": "break"
       },
       {
-        "name": "Welcome & Opening Keynote",
-        "time": "Friday 10am",
+        "name": "Welcome & Opening",
+        "time": "Friday 10:00 am",
+        "speaker": "Alberto Gutierrez & team",
+        "desc": ""
+      },
+      {
+        "name": "Coming soon",
+        "time": "Friday 10:15 am",
         "speaker": "",
         "desc": ""
-      }
+      },
+      {
+        "name": "Breakfast",
+        "time": "Friday 11:00 am",
+        "speaker": "",
+        "desc": ""
+      },
+      {
+        "name": "Cloud Functions & Firebase",
+        "time": "Friday 11:30 am",
+        "speaker": "Paola García",
+        "desc": "En este workshop práctico vamos a codear una Cloud Function desde 0, desplegarla con firebase-cli a Google Cloud Platform y ejecutarla con un evento que generarán nuestros usuarios de FriendlyChat, un chat en Android serveless que configuraremos en directo"
+      },
+      {
+        "name": "Coming soon",
+        "time": "Friday 12:30 pm",
+        "speaker": "",
+        "desc": ""
+      },
+      {
+        "name": "Lunch",
+        "time": "Friday 13:30 pm",
+        "speaker": "By Chefly",
+        "desc": ""
+      },
+      {
+        "name": "Raspberry & tensorflow",
+        "time": "Friday 15:00 pm",
+        "speaker": "Andres Leonardo ALMO - Googler",
+        "desc": ""
+      },
+      {
+        "name": "Coming soon",
+        "time": "Friday 16:00 pm",
+        "speaker": "",
+        "desc": ""
+      },
+      {
+        "name": "Coffee",
+        "time": "Friday 17:00 pm",
+        "speaker": "",
+        "desc": ""
+      },
+      {
+        "name": "Como escoger el Store en GCP",
+        "time": "Friday 17:30 pm",
+        "speaker": "Israell Olalla - Googler",
+        "desc": ""
+      },
+      {
+        "name": "Close Event",
+        "time": "Friday 18:30 pm",
+        "speaker": "Alberto Gutiérrez & Team",
+        "desc": ""
+      },
+      {
+        "name": "Networking",
+        "time": "Friday 18:45 pm",
+        "speaker": "By OpenSistemas",
+        "desc": ""
+      },
+      {
+        "name": "Go to bed",
+        "time": "Friday 20:00 pm",
+        "speaker": "",
+        "desc": ""
+      },
     ]
   }
 ]
