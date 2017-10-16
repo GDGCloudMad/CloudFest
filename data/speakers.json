@@ -3,8 +3,16 @@
     "name": "Andres Leonardo",
     "company": "Google",
     "twitter": "davilagrau",
-    "gplus": "+MonicaDinculescu514",
+    "gplus": "+AndrésLeonardoMartínezOrtiz",
     "photo": "/images/speakers/almo.jpg",
     "bio": "A mind that isn’t fully confined within the head. Computer Engineer working at Google Developer Program. ACM, IEEE & Computer Society."
+  },
+  {
+    "name": "Israel Olalla",
+    "company": "Google",
+    "twitter": "iolalla",
+    "gplus": "+IsraelOlalla",
+    "photo": "/images/speakers/olalla.jpg",
+    "bio": ""
   }
 ]
