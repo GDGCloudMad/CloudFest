@@ -1,0 +1,105 @@
+<!--
+@license
+Copyright (c) 2017 The Polymer Project Authors. All rights reserved.
+This code may only be used under the BSD style license found at http://polymer.github.io/LICENSE.txt
+The complete set of authors may be found at http://polymer.github.io/AUTHORS.txt
+The complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS.txt
+Code distributed by Google as part of the polymer project is also
+subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
+-->
+
+<link rel="import" href="../bower_components/polymer/polymer-element.html">
+<link rel="import" href="../bower_components/polymer/lib/elements/dom-repeat.html">
+
+<link rel="import" href="collapsible-content.html">
+<link rel="import" href="grid-view-shared-styles.html">
+
+<dom-module id="schedule-page">
+  <template>
+    <style include="grid-view-shared-styles">
+      .card.date-card {
+        /* !important hack needed for webcomponents/shadycss#121 */
+        background: #194b9c !important;
+        color: #fff;
+      }
+
+      .card.date-card h2 {
+        border-bottom: 1px solid #fff;
+        padding-bottom: 0.3em;
+        font-size: 2em;
+        line-height: 1.3em;
+      }
+
+      .card[type=break] h3 {
+        color: #666;
+      }
+
+      .card[type=special] h3 {
+        color: var(--blue-dark-theme-color);
+      }
+
+      .meta {
+        color: #555;
+      }
+
+      .video {
+        color: #147bcc;
+      }
+    </style>
+
+    <div class="grid">
+      <dom-repeat items="[[data]]">
+        <template>
+
+          <div class="card date-card">
+            <h2>[[item.date]]</h2>
+          </div>
+
+          <dom-repeat items="[[item.sessions]]">
+            <template>
+              <div class="card" type$="[[item.type]]">
+                <collapsible-content>
+                  <div class="summary">
+                    <h3>[[item.name]]</h3>
+                    <h4>[[item.speaker]]</h4>
+                    <div class="meta">[[item.time]]</div>
+                    <div class="meta">[[item.location]]</div>
+                    <a href$="[[item.video]]" class="video">WATCH THE VIDEO</a>
+                    <svg class="toggle-icon" viewBox="0 0 24 24"><g><path d="M7 10l5 5 5-5z"></path></g></svg>
+                  </div>
+
+                  <p class="details">[[item.desc]]</p>
+                </collapsible-content>
+              </div>
+            </template>
+          </dom-repeat>
+
+        </template>
+      </dom-repeat>
+    </div>
+  </template>
+
+  <script>
+
+    class SchedulePageElement extends Polymer.Element {
+
+      static get is() { return 'schedule-page' }
+
+      ready() {
+        super.ready();
+
+        // Use XHR instead of fetch for preload - see https://bugs.chromium.org/p/chromium/issues/detail?id=652228.
+        const xhr = new XMLHttpRequest();
+        xhr.addEventListener('load', () => {
+          this.data = JSON.parse(xhr.response);
+        });
+        xhr.open('GET', '/data/schedule.json');
+        xhr.send();
+      }
+
+    }
+
+    customElements.define(SchedulePageElement.is, SchedulePageElement);
+
+  </script>
+</dom-module>

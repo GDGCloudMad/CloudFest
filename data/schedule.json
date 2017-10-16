@@ -1,0 +1,19 @@
+[
+  {
+    "date": "Friday, November 3",
+    "sessions": [
+      {
+        "name": "Registration/Breakfast",
+        "time": "Friday 8-10am",
+        "desc": "Pick up your badge, goodies, and enjoy breakfast. You must have a government-issued photo ID to receive a badge and check in to the event. If you requested special meals due to dietary restrictions, please visit the help desk. The introductory codelab will also take place during this time.",
+        "type": "break"
+      },
+      {
+        "name": "Welcome & Opening Keynote",
+        "time": "Friday 10am",
+        "speaker": "",
+        "desc": ""
+      }
+    ]
+  }
+]

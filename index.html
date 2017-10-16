@@ -1,0 +1,428 @@
+<!--
+@license
+Copyright (c) 2017 The Polymer Project Authors. All rights reserved.
+This code may only be used under the BSD style license found at http://polymer.github.io/LICENSE.txt
+The complete set of authors may be found at http://polymer.github.io/AUTHORS.txt
+The complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS.txt
+Code distributed by Google as part of the polymer project is also
+subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
+-->
+
+<!doctype html>
+<html lang="en" itemscope="" itemtype="http://schema.org/Event">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="Join us for two days of talks, codelabs, and breakout sessions from the Polymer team, Googlers, and major companies using Polymer and Web Components.">
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1">
+  <title>CloudFest 2017</title>
+  <link rel="shortcut icon" href="/images/logos/_favicon.ico">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="application-name" content="Polymer Summit 2017">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="Polymer Summit 2017">
+  <meta itemprop="name" content="Polymer Summit 2017">
+  <meta itemprop="description" content="Join us for two days of talks, codelabs, and breakout sessions from the Polymer team, Googlers, and major companies using Polymer and Web Components.">
+  <meta itemprop="image" content="https://summit.polymer-project.org/images/banners/banner.png">
+  <meta itemprop="startDate" content="2017-08-22T00:00:00Z">
+  <meta itemprop="endDate" content="2017-08-23T23:59:59Z">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@Polymer">
+  <meta name="twitter:title" content="Polymer Summit 2017">
+  <meta name="twitter:description" content="Join us for two days of talks, codelabs, and breakout sessions from the Polymer team, Googlers, and major companies using Polymer and Web Components.">
+  <meta name="twitter:image" content="https://summit.polymer-project.org/images/banners/banner.png">
+  <meta name="twitter:image:alt" content="Polymer logo">
+  <meta property="og:title" content="Polymer Summit 2017">
+  <meta property="og:site_name" content="Polymer Summit 2017">
+  <meta property="og:type" content="website">
+  <meta property="og:description" content="Join us for two days of talks, codelabs, and breakout sessions from the Polymer team, Googlers, and major companies using Polymer and Web Components.">
+  <meta property="og:image" content="https://summit.polymer-project.org/images/banners/banner.png">
+  <meta name="theme-color" content="#2e9be6">
+
+  <link rel="manifest" href="/manifest.json">
+
+  <custom-style>
+    <style>
+    html {
+      --header-height: 60px;
+      --section-padding: 20px;
+      --bg-pattern-height: 80px;
+      --blue-theme-color: #64B5F7;
+      --blue-dark-theme-color: #2269D1;
+      --grey-theme-color: #eceff1;
+    }
+
+    body {
+      margin: 0;
+      margin-top: var(--header-height);
+      font-family: Roboto, sans-serif;
+      background: var(--blue-theme-color);
+      font-size: 20px;
+      line-height: 1.5em;
+      -webkit-font-smoothing: antialiased;
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    body.unresolved {
+      display: none;
+    }
+
+    a {
+      color: inherit;
+    }
+
+    .video-container {
+      position: relative;
+      padding-top: 56.25%;
+      background: #000;
+    }
+
+    .video-container iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }
+
+    header,
+    section,
+    footer {
+      padding: var(--section-padding);
+    }
+
+    .grey {
+      background: var(--grey-theme-color);
+    }
+
+    .white {
+      background: #fff;
+      color: var(--blue-theme-color);
+    }
+
+    .blue {
+      background: var(--blue-theme-color);
+      color: #fff;
+    }
+
+    .pink {
+      background: var(--blue-dark-theme-color);
+      color: #fff;
+    }
+
+    header,
+    footer {
+      padding-bottom: calc(var(--section-padding) + var(--bg-pattern-height));
+      background: url(/images/backgrounds/header-bg.png) center bottom / auto var(--bg-pattern-height) repeat-x;
+    }
+
+    .responsive-logo {
+      width: 210px;
+      margin: var(--section-padding) auto;
+    }
+
+    .responsive-logo .logo {
+      width: 150px;
+      height: 150px;
+      padding: 5px 30px;
+      background: #fff;
+    }
+
+    .responsive-logo .text {
+      width: 210px;
+      height: 54px;
+    }
+
+    .welcome {
+      max-width: 600px;
+      margin: 1em auto;
+      font-weight: bold;
+    }
+
+    .venue-bg {
+      display: block;
+      height: 400px;
+      background: url(/images/backgrounds/venue.jpg) center / cover;
+    }
+
+    section > h3 {
+      border-bottom: 1px solid currentColor;
+      padding-bottom: 0.5em;
+    }
+
+    h2.fullbleed {
+      margin: 0;
+      padding: 60px 0;
+      background: #263238;
+      color: white;
+      text-align: center;
+    }
+
+    .social {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 10px;
+      background: #fff;
+      box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    }
+
+    .twitter-embed-container {
+      max-width: 660px;
+    }
+
+    a.button {
+      display: block;
+      margin: 4px;
+      padding: 10px;
+      box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+      text-align: center;
+      text-decoration: none;
+    }
+
+    a.button:hover {
+      text-decoration: underline;
+    }
+
+    a.button svg {
+      width: 24px;
+      height: 24px;
+      padding: 3px;
+      vertical-align: top;
+      fill: currentColor;
+    }
+
+    footer {
+      background-color: var(--grey-theme-color);
+      background-image: url(/images/backgrounds/footer-bg.png);
+      text-align: center;
+    }
+
+    footer img {
+      width: 400px;
+      max-width: 100%;
+    }
+
+    footer hr {
+      max-width: 800px;
+      margin: var(--section-padding) auto;
+      border: 2px solid #000;
+    }
+
+    footer a {
+      text-decoration: none;
+      color: var(--blue-theme-color);
+    }
+
+    @media (min-width: 768px) {
+      html {
+        --section-padding: 60px;
+        --bg-pattern-height: 120px;
+      }
+
+      .responsive-logo {
+        width: auto;
+        text-align: center;
+      }
+
+      .responsive-logo .logo {
+        width: 110px;
+        height: 110px;
+        padding: 0 20px;
+      }
+
+      .responsive-logo .text {
+        width: auto;
+        height: 110px;
+        margin-left: 20px;
+      }
+
+      .row {
+        display: flex;
+      }
+
+      .row > * {
+        flex: 1;
+      }
+    }
+    </style>
+  </custom-style>
+</head>
+
+<body>
+  <script>
+    /**
+     * NOTE(keanulee): We want the homepage to paint before JS loads, but if it turns out that
+     * another page is requested, we don't want to FOUC homepage content. This class is removed
+     * in <polymer-summit>'s ready() method.
+     */
+    if (window.location.pathname !== '/') {
+      document.body.classList.add('unresolved');
+    }
+  </script>
+  <polymer-summit>
+    <!--
+      NOTE(keanulee): Update URL for /video-embed redirect in firebase.json. This allows changing
+      the video without having to update this precached file (and getting the "Site updated" toast).
+    -->
+    <div class="video-container">
+      <iframe src="/video-embed" title="Video" allowfullscreen></iframe>
+    </div>
+    <!-- <header>
+      <div class="responsive-logo">
+        <img src="/images/logos/p-logo.svg" class="logo" alt="Polymer Logo">
+        <img src="/images/logos/header-logo-text.png" class="text" alt="Polymer Summit Copenhagen 2017">
+      </div>
+    </header> -->
+    <section class="grey">
+      <p class="welcome">
+        Join us for two days of talks, codelabs, and breakout sessions from the GoogleCloudMadrid team, Googlers, and major companies using Google Cloud.
+      </p>
+    </section>
+    <a href="https://www.google.com/maps/place/Lokomotivv%C3%A6rkstedet/@55.660099,12.5468403,17z/data=!3m1!4b1!4m5!3m4!1s0x43dc2ab7327d08ab:0xd2fa8a17076784da!8m2!3d55.660096!4d12.549029" target="_blank" rel="noopener" data-outbound class="venue-bg" aria-label="Event map"></a>
+
+    <div class="row">
+      <section class="white">
+        <h3>Schedule</h3>
+        <p>The schedule is packed with two days of technical talks. <a href="">Full schedule coming soon.</a></p>
+      </section>
+      <section class="blue">
+        <h3>When and Where</h3>
+        <div class="direction" itemprop="location" itemscope itemtype="http://schema.org/Place">
+          3 November 8:00 – 4 November 18:00
+          <br>
+          <!--<a href="https://www.google.com/maps/place/Lokomotivv%C3%A6rkstedet/@55.660099,12.5468403,17z/data=!3m1!4b1!4m5!3m4!1s0x43dc2ab7327d08ab:0xd2fa8a17076784da!8m2!3d55.660096!4d12.549029" target="_blank" rel="noopener" data-outbound>
+            <span itemprop="name">Lokomotiv værkstedet</span>, Copenhagen, DK
+          </a>
+          <br>
+          <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+            Otto Busses Vej 5A, Building OBV037, 2450 Copenhagen SV
+          </span>-->
+        </div>
+      </section>
+    </div>
+    <div class="row">
+      <section class="pink">
+        <h3>Accommodations</h3>
+        <p>We are looking for good places </p> <!--hile there are no official accommodations affiliated with Polymer Summit, here are some of the hotels in the area:</p>
+        <p><a href="https://www.scandichotels.dk/hoteller/danmark/kobenhavn/scandic-sydhavnen" target="_blank" rel="noopener" data-outbound>Scandic Sydhavnen, Copenhagen</a><br>Address: Sydhavns Plads 15, Copenhagen, 2450, Denmark<br>Distance to venue: 0.8 km</p>
+        <p><a href="https://www.copenhagenisland.dk/" target="_blank" rel="noopener" data-outbound>Copenhagen Island Hotel, Copenhagen</a><br>Address: Kalvebod Brygge 53, Copenhagen, 1560, Denmark<br>Distance to venue: 1 km</p>
+        <p><a href="https://www.tivolihotel.dk/" target="_blank" rel="noopener" data-outbound>Tivoli Hotel, Copenhagen</a><br>Address: Arni Magnussons Gade 2, Copenhagen, 1577, Denmark<br>Distance to venue: 1.3 km</p>-->
+      </section>
+      <section class="white">
+        <h3>Getting There</h3>
+        <!--
+        <h4>Parking</h4>
+        <p>There will be limited car parking available onsite. We encourage visitors to take public transportation to the venue.</p>
+
+        <h4>Mainline Rail</h4>
+        <p>The nearest main train S-station is Dybbølsbro and is an 8 minute walk / 4 minute bike ride to the venue.</p>
+
+        <p>Travelling by bus, train, or the metro? Plan your journey ahead through the <a href="http://www.rejseplanen.dk/bin/query.exe/en" target="_blank" rel="noopener" data-outbound>Rejseplanen</a> website/app.</p>
+
+        <h4>Airports</h4>
+        <p>Copenhagen airport is a short 15 minute drive away from the venue.</p>
+
+        <h4>Taxis</h4>
+        <p>There are no taxi ranks located at the venue, but these can be booked via their <a href="http://www.taxa.dk/en/#" target="_blank" rel="noopener" data-outbound>website</a>, app, or by calling them on +45 35 35 35 35.</p>-->
+      </section>
+    </div>
+
+    <h2 class="fullbleed">Events &amp; Amenities.</h2>
+    <div class="row">
+      <section class="white">
+        <h3>After Hours</h3>
+        <p>Looking for nice party </p><!--Attendees are invited to an after party at the end of the first day, on 22 August from 18:00-22:00.</p>
+        <h3>Childcare</h3>
+        <p>We're pleased to offer child care assistance for Polymer Summit 2017 attendees. Please indicate your interest on the registration form or email us at <a href="mailto:polymer-dev-summit@google.com">polymer-dev-summit@google.com</a>.</p>-->
+      </section>
+      <section class="blue">
+        <!--<h3>Prayer Room &amp; Mother's Room</h3>
+        <p>We will have a prayer room and mother’s room on site at the event.</p>
+        <h3>Accessibility Accommodations</h3>
+        <p>If you have any accessibility accommodation needs, please email <a href="mailto:polymer-dev-summit@google.com">polymer-dev-summit@google.com</a>.  The sessions on the main stage will be live captioned.</p>-->
+      </section>
+    </div>
+
+    <h2 class="fullbleed">Summit Extended.</h2>
+    <section class="pink">
+      <div class="social twitter-embed-container">
+        <!-- Twitter embed -->
+        <a class="twitter-timeline" data-height="700" data-partner="tweetdeck" href="https://twitter.com/gdgcloudmadrid">#CloudFest 2017 - Curated tweets by GDGCloudMadrid</a>
+      </div>
+    </section>
+    <section class="grey">
+      <div class="row social">
+        <div>
+          <h3>More info at:</h3>
+        </div>
+        <div>
+          <div class="row">
+            <a href="https://plus.google.com/+gdgcloudmadrid" target="_blank" rel="noopener" data-outbound class="button blue">
+              <svg>
+                <path fill="none" d="M0 0h24v24H0V0z"/></path>
+                <path d="M23 11h-2V9h-2v2h-2v2h2v2h2v-2h2zM8 11v2.4h3.97c-.16 1.03-1.2 3.02-3.97 3.02-2.39 0-4.34-1.98-4.34-4.42S5.61 7.58 8 7.58c1.36 0 2.27.58 2.79 1.08l1.9-1.83C11.47 5.69 9.89 5 8 5c-3.87 0-7 3.13-7 7s3.13 7 7 7c4.04 0 6.72-2.84 6.72-6.84 0-.46-.05-.81-.11-1.16H8z"/></path>
+                <path fill="none" d="M1 5h14v14H1z"/>
+              </svg>
+              Google+
+            </a>
+            <a href="https://twitter.com/gdgcloudmadrid" target="_blank" rel="noopener" data-outbound class="button blue">
+              <svg>
+                <path d="M20 2h-16c-1.1 0-1.99.9-1.99 2l-.01 16c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2v-16c0-1.1-.9-2-2-2zm-2.29 7.33c-.06 4.62-3.02 7.78-7.42 7.98-1.82.08-3.14-.5-4.28-1.23 1.34.21 3.01-.32 3.9-1.09-1.32-.13-2.1-.8-2.46-1.88.38.07.78.05 1.14-.03-1.19-.4-2.04-1.13-2.08-2.67.33.15.68.29 1.14.32-.9-.5-1.55-2.35-.8-3.57 1.32 1.45 2.91 2.63 5.52 2.79-.65-2.8 3.06-4.32 4.61-2.44.66-.13 1.19-.38 1.7-.65-.21.65-.62 1.1-1.12 1.47.54-.07 1.03-.21 1.44-.41-.25.53-.81 1.01-1.29 1.41z"/>
+              </svg>
+              Twitter
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </polymer-summit>
+
+  <footer>
+    <img src="/images/logos/footer-logo.png" alt="Polymer Summit Copenhagen 2017">
+    <hr>
+    <a href="https://cloud.google.com" target="_blank" rel="noopener" data-outbound>
+      About Google Cloud Platform
+    </a><br>
+    <a href="/code-of-conduct.html" target="_blank" rel="noopener" data-outbound>
+      Code of Conduct
+    </a><br>
+    <a href="https://github.com/GDGCloudMad/CloudFest" target="_blank" rel="noopener" data-outbound>
+      View Source Code
+    </a>
+  </footer>
+
+  <!--
+    Web Components loader must run synchronously so that customElements.define is patched
+    before <polymer-summit> (which is in ES5) is defined.
+  -->
+  <script src="/bower_components/webcomponentsjs/webcomponents-loader.js"></script>
+
+  <!--
+    Google Analytics code. Defines the global `ga` variable which will use throughout the app.
+    This is the async tracking snippet (https://developers.google.com/analytics/devguides/collection/analyticsjs/#alternative_async_tracking_snippet).
+    Subsequent pageviews and outbound link click events are sent by the <polymer-summit> element
+    (which handles routing). We also include a noscript fallback so we can track users with no
+    JS (thought it's not completely reliable since we can't generate a unique cid per user).
+
+    window.ga must be defined before <polymer-summit> (which relies on it).
+  -->
+  <script>
+    window.ga = function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+    ga('create', 'UA-39334307-21', 'auto');
+    ga('send', 'pageview');
+  </script>
+
+  <link rel="import" href="/elements/polymer-summit.html">
+
+  <!-- Twitter embed -->
+  <script src="https://platform.twitter.com/widgets.js" async></script>
+
+  <script src='https://www.google-analytics.com/analytics.js' async></script>
+  <noscript>
+    <img src="https://www.google-analytics.com/collect?v=1&amp;t=pageview&amp;tid=UA-39334307-21&amp;cid=42&amp;dh=summit.polymer-project.org&amp;dp=%2Fnoscript">
+  </noscript>
+</body>
+</html>
