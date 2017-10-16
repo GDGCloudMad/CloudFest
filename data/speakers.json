@@ -6,21 +6,5 @@
     "gplus": "+MonicaDinculescu514",
     "photo": "/images/speakers/almo.jpg",
     "bio": "A mind that isn’t fully confined within the head. Computer Engineer working at Google Developer Program. ACM, IEEE & Computer Society."
-  },
-  {
-    "name": "Monica Dinculescu",
-    "company": "Google",
-    "twitter": "notwaldorf",
-    "gplus": "+MonicaDinculescu514",
-    "photo": "/images/speakers/monica_dinculescu.jpg",
-    "bio": "Monica is an emojineer at Google. She works on Polymer, web components and Chrome, and has probably at least once broken the Internet for you. She is unreasonably excited about emoji, wary of web fonts, and will become your best friend if you bring her cheese. On second thought, she may be a mouse."
-  },
-  {
-    "name": "Monica Dinculescu",
-    "company": "Google",
-    "twitter": "notwaldorf",
-    "gplus": "+MonicaDinculescu514",
-    "photo": "/images/speakers/monica_dinculescu.jpg",
-    "bio": "Monica is an emojineer at Google. She works on Polymer, web components and Chrome, and has probably at least once broken the Internet for you. She is unreasonably excited about emoji, wary of web fonts, and will become your best friend if you bring her cheese. On second thought, she may be a mouse."
-  },
+  }
 ]
