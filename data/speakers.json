@@ -15,6 +15,14 @@
     "photo": "/images/speakers/olalla.jpg",
     "bio": "Israel Olalla es un Customer Engineer del equipo de Google Cloud en Madrid.  Sus experiencia se ha desarrollado en el campo de los motores de búsqueda, los asistentes virtuales, los sistemas de recomendación y los juegos.  Sus intereses incluyen Tensorflow, Bigquery, Buscadores, el lenguaje GO y los interfaces conversacionales.  " },
   {
+    "name": "Paola García",
+    "company": "Chefly",
+    "twitter": "ggarciapaola",
+    "gplus": "",
+    "photo": "/images/speakers/paola.jpg",
+    "bio": "Paola Garcia. Software Engineer. Entrepreneur. Building communities in Chefly, WomenWelcome and OpenSource Weekends. Diversity Advocate in tech events."
+  },
+  {
     "name": "Juantomás García",
     "company": "OpenSistemas",
     "twitter": "juantomas",
