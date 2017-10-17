@@ -17,8 +17,8 @@
       {
         "name": "Coming soon",
         "time": "Friday 10:15 am",
-        "speaker": "",
-        "desc": ""
+        "speaker": "Andrés Leonardo Martinez (Google)",
+        "desc": "Arquitecturas para Interfaces Conversacionales"
       },
       {
         "name": "Breakfast",
@@ -33,10 +33,10 @@
         "desc": "En este workshop práctico vamos a codear una Cloud Function desde 0, desplegarla con firebase-cli a Google Cloud Platform y ejecutarla con un evento que generarán nuestros usuarios de FriendlyChat, un chat en Android serveless que configuraremos en directo"
       },
       {
-        "name": "Coming soon",
+        "name": "Google Dataflow",
         "time": "Friday 12:30 pm",
-        "speaker": "",
-        "desc": ""
+        "speaker": "Ivan Fernandez (Beeva)",
+        "desc": "¿que es Google Dataflow?"
       },
       {
         "name": "Lunch",
@@ -45,16 +45,16 @@
         "desc": ""
       },
       {
-        "name": "Raspberry & tensorflow",
+        "name": "¿como escoger el producto que mejor se adapta a mi proyecto?",
         "time": "Friday 15:00 pm",
-        "speaker": "Andres Leonardo ALMO - Googler",
-        "desc": ""
+        "speaker": "Israel Olalla (Googler)",
+        "desc": "Tu guía de como sobrevir a la cantidad de productos que te ofrece Google Cloud"
       },
       {
-        "name": "Coming soon",
+        "name": "Real Time Talk Sentiment con 50 lineas de código",
         "time": "Friday 16:00 pm",
-        "speaker": "",
-        "desc": ""
+        "speaker": "Juantomás García (OpenSistemas & GDE)",
+        "desc": "Aprovechando las virtudes de las arquitecturas Serverless se puede hacer un sistema de análisis de sentimiento en tiempo real de los assitentes a una charla con menos de 50 líneas. Usaremos desde Google Storage a Cloud Functions pasando por el API de Google ML"
       },
       {
         "name": "Coffee",
@@ -63,9 +63,9 @@
         "desc": ""
       },
       {
-        "name": "Como escoger el Store en GCP",
+        "name": "",
         "time": "Friday 17:30 pm",
-        "speaker": "Israell Olalla - Googler",
+        "speaker": "",
         "desc": ""
       },
       {
@@ -75,13 +75,13 @@
         "desc": ""
       },
       {
-        "name": "Networking",
+        "name": "Beers & Networking",
         "time": "Friday 18:45 pm",
         "speaker": "By OpenSistemas",
         "desc": ""
       },
       {
-        "name": "Go to bed",
+        "name": "Go to bed or not",
         "time": "Friday 20:00 pm",
         "speaker": "",
         "desc": ""
