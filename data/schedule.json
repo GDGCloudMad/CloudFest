@@ -66,7 +66,7 @@
         "name": "Grafos a lo bestia en cloud: Apache Spark Graphframes",
         "time": "Friday 17:30 pm",
         "speaker": "David Gonzalez(OpenSistemas)",
-        "desc": "Como manejar grafos en cluster de Apache Spark"
+        "desc": "Como manejar grafos enormes con Apache Spark usando Google Dataproc"
       },
       {
         "name": "Close Event",
