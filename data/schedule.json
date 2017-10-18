@@ -17,8 +17,8 @@
       {
         "name": "Coming soon",
         "time": "Friday 10:15 am",
-        "speaker": "Andrés Leonardo Martinez (Google)",
-        "desc": "Arquitecturas para Interfaces Conversacionales"
+        "speaker": "Pedro Pablo Malagon (googler)",
+        "desc": "Google Dataproc: creando clusters de hadoop y Apache Spark al vuelo"
       },
       {
         "name": "Breakfast",
@@ -27,16 +27,16 @@
         "desc": ""
       },
       {
-        "name": "Cloud Functions & Firebase",
-        "time": "Friday 11:30 am",
-        "speaker": "Paola García",
-        "desc": "En este workshop práctico vamos a codear una Cloud Function desde 0, desplegarla con firebase-cli a Google Cloud Platform y ejecutarla con un evento que generarán nuestros usuarios de FriendlyChat, un chat en Android serveless que configuraremos en directo"
-      },
-      {
         "name": "Google Dataflow",
-        "time": "Friday 12:30 pm",
+        "time": "Friday 11:30 pm",
         "speaker": "Ivan Fernandez (Beeva)",
         "desc": "¿que es Google Dataflow?"
+      },
+      {
+        "name": "Supercarga tu app con Cloud Functions de Firebase",
+        "time": "Friday 12:30 am",
+        "speaker": "Paola García (Chefly)",
+        "desc": "En este workshop práctico vamos a codear una Cloud Function desde 0, desplegarla con firebase-cli a Google Cloud Platform y ejecutarla con un evento que generarán nuestros usuarios de FriendlyChat, un chat en Android serveless que configuraremos en directo"
       },
       {
         "name": "Lunch",
@@ -45,10 +45,10 @@
         "desc": ""
       },
       {
-        "name": "¿como escoger el producto que mejor se adapta a mi proyecto?",
+        "name": "Firebase: más que una base de datos",
         "time": "Friday 15:00 pm",
-        "speaker": "Israel Olalla (Googler)",
-        "desc": "Tu guía de como sobrevir a la cantidad de productos que te ofrece Google Cloud"
+        "speaker": "Carlos Azaustre (Googler)",
+        "desc": "Descubre todo lo que puede hacer por tu proyecto Firebase"
       },
       {
         "name": "Real Time Talk Sentiment con 50 lineas de código",
@@ -63,10 +63,10 @@
         "desc": ""
       },
       {
-        "name": "",
+        "name": "Grafos a lo bestia en cloud: Apache Spark Graphframes",
         "time": "Friday 17:30 pm",
-        "speaker": "",
-        "desc": ""
+        "speaker": "David Gonzalez(OpenSistemas)",
+        "desc": "Como manejar grafos en cluster de Apache Spark"
       },
       {
         "name": "Close Event",
