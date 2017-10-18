@@ -1,19 +1,21 @@
 [
   {
-    "name": "Andres Leonardo",
+    "name": "Pedro Pablo Malagon",
     "company": "Google",
-    "twitter": "davilagrau",
-    "gplus": "+AndrésLeonardoMartínezOrtiz",
-    "photo": "/images/speakers/almo.jpg",
-    "bio": "A mind that isn’t fully confined within the head. Computer Engineer working at Google Developer Program. ACM, IEEE & Computer Society."
+    "twitter": "",
+    "gplus": "",
+    "photo": "/images/speakers/pedro.jpg",
+    "bio": "Pedro Pablo es Customer Engineer en Google Cloud, con base en Madrid. LLeva más de 20 años trabajando con clientes a nivel empresarial, teniendo foco los últimos años en el área de Datos en general y en particular sobre el mundo de Cloud."
   },
   {
-    "name": "Israel Olalla",
+    "name": "Carlos Azaustre",
     "company": "Google",
-    "twitter": "iolalla",
-    "gplus": "+IsraelOlalla",
-    "photo": "/images/speakers/olalla.jpg",
-    "bio": "Israel Olalla es un Customer Engineer del equipo de Google Cloud en Madrid.  Sus experiencia se ha desarrollado en el campo de los motores de búsqueda, los asistentes virtuales, los sistemas de recomendación y los juegos.  Sus intereses incluyen Tensorflow, Bigquery, Buscadores, el lenguaje GO y los interfaces conversacionales.  " },
+    "twitter": "carlosazaustre",
+    "gplus": "",
+    "photo": "/images/speakers/carlos.jpg",
+    "bio": "Carlos Azaustre trabaja en Google y entre muchas otras cosas es experto en Firebase"
+  },
+
   {
     "name": "Paola García",
     "company": "Chefly",
@@ -22,6 +24,16 @@
     "photo": "/images/speakers/paola.jpg",
     "bio": "Paola Garcia. Software Engineer. Entrepreneur. Building communities in Chefly, WomenWelcome and OpenSource Weekends. Diversity Advocate in tech events."
   },
+
+  {
+    "name": "David Gonzalez",
+    "company": "OpenSistemas",
+    "twitter": "",
+    "gplus": "",
+    "photo": "/images/speakers/david.jpg",
+    "bio": "David es el responsable de Big Data de OpenSistemas. Experto en Hadoop y Apache Spark. Mago de scala y grafos."
+  },
+
   {
     "name": "Juantomás García",
     "company": "OpenSistemas",
