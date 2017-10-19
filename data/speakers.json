@@ -9,11 +9,11 @@
   },
   {
     "name": "Carlos Azaustre",
-    "company": "Google",
+    "company": "",
     "twitter": "carlosazaustre",
     "gplus": "",
     "photo": "/images/speakers/carlos.jpg",
-    "bio": "Carlos Azaustre trabaja en Google y entre muchas otras cosas es experto en Firebase"
+    "bio": "Carlos Azaustre entre muchas otras cosas (experto en Google Cloud) es experto en Firebase"
   },
 
   {
@@ -41,5 +41,24 @@
     "gplus": "+JuantomasGarcia",
     "photo": "/images/speakers/juantomas-garcia.jpg",
     "bio": "CDO at Open Sistemas. Google Developer Expert for cloud (2017). Author the Spanish free software book 'La Pastilla Roja'. Organizer of Machine Learning Spain and GDG cloud Madrid meetups. Former President of Hispalinix (Spanish Linux Local User Group) "
+  },
+
+  {
+    "name": "Ivan Fernandez",
+    "company": "Beeva",
+    "twitter": "",
+    "gplus": "",
+    "photo": "/images/speakers/faceless.gif",
+    "bio": "I am a Cloud & Big Data software engineer who has worked with technologies such as Hadoop, Spark or HBase on a Cloud environment (Amazon Web Services, Google Cloud, Microsoft Azure and IBM Softlayer). I have experience with Big Data related technologies like Flume, Kafka or Flink among others using Cloudera and Hortonworks distributions."
+  },
+
+  {
+    "name": "Alberto Gutierrez",
+    "company": "RedHat",
+    "twitter": "",
+    "gplus": "",
+    "photo": "/images/speakers/alberto.jpg",
+    "bio": "GDG (Spain|Madrid|Cloud Madrid) Organizer"
   }
+
 ]

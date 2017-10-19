@@ -11,14 +11,14 @@
       {
         "name": "Welcome & Opening",
         "time": "Friday 10:00 am",
-        "speaker": "Alberto Gutierrez & team",
+        "speaker": "Alberto Gutierrez & GDG Cloud team",
         "desc": ""
       },
       {
-        "name": "Coming soon",
+        "name": "BigData 3.0 Hadoop as a Service, Por fin tu proyecto real en producción",
         "time": "Friday 10:15 am",
         "speaker": "Pedro Pablo Malagon (googler)",
-        "desc": "Google Dataproc: creando clusters de hadoop y Apache Spark al vuelo"
+        "desc": "En esta sesión vamos a acercar a todos a los detalles técnicos de Google Cloud DataProc. Revisando las arquitecturas posibles, desde como hacer clusters de Hadoop de Usar y tirar , hasta arquitecturas de producción y migración desde otras nubes entraremos en los detalles técnicos para intentar acabar rompiendo Yarn con máquinas preemptible."
       },
       {
         "name": "Breakfast",
@@ -27,10 +27,10 @@
         "desc": ""
       },
       {
-        "name": "Google Dataflow",
+        "name": "Streaming processing with Dataflow",
         "time": "Friday 11:30 pm",
         "speaker": "Ivan Fernandez (Beeva)",
-        "desc": "¿que es Google Dataflow?"
+        "desc": "Procesamiento de datos en tiempo real y batch en la nube utilizando Cloud DataFlow y el modelo de programación sobre stream Beam."
       },
       {
         "name": "Supercarga tu app con Cloud Functions de Firebase",
@@ -47,13 +47,13 @@
       {
         "name": "Firebase: más que una base de datos",
         "time": "Friday 15:00 pm",
-        "speaker": "Carlos Azaustre (Googler)",
+        "speaker": "Carlos Azaustre",
         "desc": "Descubre todo lo que puede hacer por tu proyecto Firebase"
       },
       {
         "name": "Real Time Talk Sentiment con 50 lineas de código",
         "time": "Friday 16:00 pm",
-        "speaker": "Juantomás García (OpenSistemas & GDE)",
+        "speaker": "Juantomás García (Google Developer Expert)",
         "desc": "Aprovechando las virtudes de las arquitecturas Serverless se puede hacer un sistema de análisis de sentimiento en tiempo real de los assitentes a una charla con menos de 50 líneas. Usaremos desde Google Storage a Cloud Functions pasando por el API de Google ML"
       },
       {
@@ -66,12 +66,12 @@
         "name": "Grafos a lo bestia en cloud: Apache Spark Graphframes",
         "time": "Friday 17:30 pm",
         "speaker": "David Gonzalez(OpenSistemas)",
-        "desc": "Como manejar grafos enormes con Apache Spark usando Google Dataproc"
+        "desc": "Como manejar grafos enormes con Apache Spark Graphframes usando Google Dataproc"
       },
       {
         "name": "Close Event",
         "time": "Friday 18:30 pm",
-        "speaker": "Alberto Gutiérrez & Team",
+        "speaker": "Alberto Gutiérrez & GDG Cloud Team",
         "desc": ""
       },
       {
