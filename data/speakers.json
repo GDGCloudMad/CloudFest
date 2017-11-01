@@ -50,15 +50,5 @@
     "gplus": "",
     "photo": "/images/speakers/faceless.gif",
     "bio": "I am a Cloud & Big Data software engineer who has worked with technologies such as Hadoop, Spark or HBase on a Cloud environment (Amazon Web Services, Google Cloud, Microsoft Azure and IBM Softlayer). I have experience with Big Data related technologies like Flume, Kafka or Flink among others using Cloudera and Hortonworks distributions."
-  },
-
-  {
-    "name": "Alberto Gutierrez",
-    "company": "RedHat",
-    "twitter": "",
-    "gplus": "",
-    "photo": "/images/speakers/alberto.jpg",
-    "bio": "GDG (Spain|Madrid|Cloud Madrid) Organizer"
   }
-
 ]
